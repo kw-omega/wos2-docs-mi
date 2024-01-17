@@ -11,7 +11,7 @@ The log token refers to a `         <log>        ` element, which may be
 used to log messages being mediated.
 
 ``` java
-<log [level="string"] [separator="string"]>
+<log [level="string"] [separator="string"] [category="string"]>
    <property name="string" (value="literal" | expression="[XPath|json-eval(JSON Path)]")/>*
 </log>
 ```
